@@ -5,13 +5,13 @@ public class Shoes {
 	float size;
 	String type;
 	String color;
-	String material;
-	public Shoes(String brand,float size,String type,String color,String material){
+	int money;
+	public Shoes(String brand,float size,String type,String color,int money){
 		this.brand=brand;
 		this.size = size;
 		this.type = type;
 		this.color=color;
-		this.material=material;
+		this.money=money;
 	}
 	
 }
