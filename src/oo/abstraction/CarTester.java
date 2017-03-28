@@ -3,6 +3,7 @@ package oo.abstraction;
 public class CarTester {
 
 	public static void main(String[] args) {
+		
 		Car c1 = new Car("Toyota", 1800, "Altis", "Sedan");
 		Car c2 = new Car("HONDA", 2000, "ACCORD", "Sedan");
 		Car c3 = new Car("Toyota", 2000, "WISH", "Sedan");
@@ -20,9 +21,11 @@ public class CarTester {
 		
 		System.out.println(cars[0].brand);
 		int i = 0;
+		//x的生存區域
 		for (i = 0; i < 3; i++) {
 			System.out.println(cars[i].brand);
-		}
+			int x = 0;
+		}//x的生存區域
 		System.out.println(i);
 		
 		class AA{
