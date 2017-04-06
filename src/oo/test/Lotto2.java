@@ -49,13 +49,13 @@ public class Lotto2 {
 				c++;
 			}
 		}
+		if (c >= 2) {
+			System.out.print("中" + c + "個號碼");
+		}
 		if (c >= 2 && (t1.equals(b.get(6)) || t2.equals(b.get(6)) || t3.equals(b.get(6)) || t6.equals(b.get(6))
 				|| t4.equals(b.get(6)) || t5.equals(b.get(6)))) {
-			System.out.println("中" + c + "個號碼及特別號");
-		}else if(c==3){
-			
-		}
-		else{
+			System.out.println("及特別號");
+		} else {
 			System.out.println("請再加油");
 
 		}
