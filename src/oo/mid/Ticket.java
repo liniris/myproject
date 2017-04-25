@@ -10,4 +10,22 @@ public class Ticket {
 		 this.price = price;
 		 
 	 }
+	 public void getId(int id){
+		 this.id = id;
+	 }
+	 public void setId(int id){
+		 this.id = id;
+	 }
+	 public void getName(String name){
+		 this.name = name;
+	 }
+	 public void setName(String name){
+		 this.name = name;
+	 }
+	 public void getPrice(float price){
+		 this.price = price;
+	 }
+	 public void setPrice(float price){
+		 this.price = price;
+	 }
 }
