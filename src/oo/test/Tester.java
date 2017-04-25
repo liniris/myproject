@@ -10,7 +10,7 @@ import oo.abstraction.*;
 public class Tester {
 
 	public static void main(String[] args) {
-		Car c = new Car("Toyota", 2000, "car", "van");
+		Car c = new Car("Toyota", "car", 2000, "van");
 		//public的東西在不同package裡都可使用
 	
 	ArrayList<String> a = new ArrayList();

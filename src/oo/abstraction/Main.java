@@ -3,7 +3,7 @@ package oo.abstraction;
 public class Main {
 
 	public static void main(String[] args) {
-		Car c1 = new Car("Toyota", 1800, "Altis", "Sedan");
+		Car c1 = new Car("Toyota","Altis",1800 , "Sedan");
 		c1.setMilage(20000);
 		
 		float current = c1.addMilage(50);

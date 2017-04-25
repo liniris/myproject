@@ -5,6 +5,11 @@ public class Student {
 	int math;
 	int chinese;
 	static int pass = 60;
+	static{
+    	System.out.println("static!!");
+    	System.out.println(pass);
+    	//System.out.println(english);無法使用 因為
+    }//物件還沒生成就會被執行 
 	public Student(int english,int math, int chinese){
 		this.english = english;
 		this.math = math;
