@@ -9,7 +9,7 @@ public class Car {
     int status;
     int id;
     float milage;
-    
+   
     //屬性
   //區域變數cc name
     public Car(String brand,String name){

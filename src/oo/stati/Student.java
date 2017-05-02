@@ -24,7 +24,7 @@ public class Student {
 		// public 加static void print印不出field裡面的東西
 	}
 
-	private String getScore(int score) {
+	String getScore(int score) {
 		if (score < pass) {
 			return String.valueOf(score) + "*";
 		} else {
