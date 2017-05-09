@@ -11,6 +11,10 @@ import oo.stati.Student;
 public class Tester {
 
 	public static void main(String[] args) {
+		Student stu = new Student();
+		System.out.println(stu);
+		
+		
 		Car c = new Car("Toyota", "car", 2000, "van");
 		//public��镼踹銝�ackage鋆⊿�雿輻
 	

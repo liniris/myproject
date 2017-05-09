@@ -10,7 +10,7 @@ public class Student {
 		System.out.println(pass);
 		// System.out.println(english);無法使用 因為
 	}// 物件還沒生成就會被執行
-	Student(){
+	public Student(){
 		
 	}
 	public Student(int english, int math, int chinese) {//沒有public其他package不能用
@@ -30,5 +30,11 @@ public class Student {
 		} else {
 			return String.valueOf(score);
 		}
+		
+	}
+	@Override
+	public String toString(){
+		return
+				"eng:"+english+"\n"+"chinese:"+chinese+"\n"+"math:"+math;
 	}
 }
