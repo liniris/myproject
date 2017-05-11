@@ -16,10 +16,10 @@ public class Tester {
 		
 		
 		Car c = new Car("Toyota", "car", 2000, "van");
-		//public��镼踹銝�ackage鋆⊿�雿輻
+		//public的東西在不同package裡都可使用
 	
 	ArrayList<String> a = new ArrayList();
-	//<>鋆⊥鞈���� 銋��dd()撠望�◤��
+	//<>裡放資料型態 之後的add()就會被限制
 	a.add("331");
 	a.add("453");
 	a.add("886");
@@ -29,7 +29,7 @@ public class Tester {
 	a.set(2, "821");
 	System.out.println(a);
 	String data = (String)a.get(0);
-	//鞈��靘�閬���
+	//資料拿出來需要轉型
 	//int n = (int)a.get(1);
 	String data1 = (String)a.get(1);
 	

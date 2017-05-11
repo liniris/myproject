@@ -7,7 +7,8 @@ import oo.stati.Student;
 public class Tester {
 
 	public static void main(String[] args) {
-		// Customer c1 = new Customer(6000);
+
+		System.out.println("原價" + "\t" + "折扣後" + "\t" + "還原金");
 		ArrayList<Customer> list = new ArrayList();
 		list.add(new Customer(6000));
 		list.add(new SilverCustomer(8000));
