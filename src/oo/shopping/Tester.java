@@ -16,10 +16,17 @@ public class Tester {
 		list.add(new GoldCustomer(30000));
 		list.add(new Customer(2000));
 		list.add(new GoldCustomer(10000));
-		for (int i = 0; i < list.size(); i++) {
-			Customer cus = list.get(i);
+		//for (int i = 0; i < list.size(); i++) {
+			//Customer cus = list.get(i);
+		for(Customer cus:list){//for each迴圈,不需要index值時使用
+			if(cus instanceof SilverCustomer && 
+					!(cus instanceof GoldCustomer)){
+				System.out.print("*");
+				SilverCustomer silver = (SilverCustomer)cus;//轉型
+			}
 			cus.print();
 		}
+		
 	}
 
 }
